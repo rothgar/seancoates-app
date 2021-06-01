@@ -3,8 +3,8 @@ runtime: python3
 build:
   commands:
       build:
-        - pip install pipenv
-        - pipenv install
+      - pip3 install pipenv
+      - pipenv install
   run:
     command: pipenv run python app.py
     network:
